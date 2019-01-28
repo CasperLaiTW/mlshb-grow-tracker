@@ -23,7 +23,7 @@ View the full documentation at https://tailwindcss.com.
 | values with some of the Tailwind defaults.
 |
 */
-
+// eslint-disable-next-line
 let defaultConfig = require('tailwindcss/defaultConfig')()
 
 
