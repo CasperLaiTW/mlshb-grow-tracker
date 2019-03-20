@@ -24,7 +24,7 @@
           <th rowspan="2">通報轉介人數</th>
           <th colspan="2">篩檢人數</th>
           <th rowspan="2">通報轉介人數</th>
-          <th colspan="2">外籍配偶、大陸配偶及本國之子女0 ~ 3歲</th>
+          <th colspan="2">外籍配偶、大陸配偶及本國之子女0 ~ 2歲</th>
           <th rowspan="2">通報轉介人數</th>
           <th colspan="2">篩檢人數</th>
           <th rowspan="2">通報轉介人數</th>
@@ -32,7 +32,7 @@
           <th rowspan="2">通報轉介人數</th>
           <th colspan="2">篩檢人數</th>
           <th rowspan="2">通報轉介人數</th>
-          <th colspan="2">外籍配偶、大陸配偶及本國之子女3 ~ 7歲</th>
+          <th colspan="2">外籍配偶、大陸配偶及本國之子女2 ~ 6歲</th>
           <th rowspan="2">通報轉介人數</th>
         </tr>
         <tr>
