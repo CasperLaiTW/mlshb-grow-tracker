@@ -8,13 +8,13 @@
         <tr>
           <th rowspan="3">單位名稱</th>
           <th rowspan="3">現住人數</th>
-          <th colspan="3">外籍配偶子女0 ~ 3歲</th>
-          <th colspan="3">大陸配偶子女0 ~ 3歲</th>
-          <th colspan="3">本國籍子女0 ~ 3歲</th>
+          <th colspan="3">外籍配偶子女0 ~ 2歲</th>
+          <th colspan="3">大陸配偶子女0 ~ 2歲</th>
+          <th colspan="3">本國籍子女0 ~ 2歲</th>
           <th colspan="3">合計</th>
-          <th colspan="3">外籍配偶子女3 ~ 7歲</th>
-          <th colspan="3">大陸配偶子女3 ~ 7歲</th>
-          <th colspan="3">本國籍子女3 ~ 7歲</th>
+          <th colspan="3">外籍配偶子女2 ~ 6歲</th>
+          <th colspan="3">大陸配偶子女2 ~ 6歲</th>
+          <th colspan="3">本國籍子女2 ~ 6歲</th>
           <th colspan="3">合計</th>
         </tr>
         <tr>
