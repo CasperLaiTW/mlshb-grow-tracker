@@ -147,7 +147,7 @@
           return [
             group,
             {
-              total: groupData.map(value => parseInt(value[3], 10)).filter(value => Number.isInteger(value)).sum(),
+              total: groupData.map(value => parseInt(value[3], 10)).filter(value => Number.isInteger(value)).min(),
               foreignLessThanThreeMan: groupData.map(value => parseInt(value[4], 10)).filter(value => Number.isInteger(value)).sum(),
               foreignLessThanThreeWoman: groupData.map(value => parseInt(value[5], 10)).filter(value => Number.isInteger(value)).sum(),
               foreignLessThanThreeTransfer: groupData.map(value => parseInt(value[6], 10)).filter(value => Number.isInteger(value)).sum(),
