@@ -144,10 +144,11 @@
       mapData() {
         return collect(this.groups).mapWithKeys((group => {
           const groupData = this.csv.filter(value => value[1] === group);
+          const total = groupData.map(value => parseInt(value[3], 10)).filter(value => Number.isInteger(value)).min();
           return [
             group,
             {
-              total: groupData.map(value => parseInt(value[3], 10)).filter(value => Number.isInteger(value)).min(),
+              total: total === Infinity ? 0 : total,
               foreignLessThanThreeMan: groupData.map(value => parseInt(value[4], 10)).filter(value => Number.isInteger(value)).sum(),
               foreignLessThanThreeWoman: groupData.map(value => parseInt(value[5], 10)).filter(value => Number.isInteger(value)).sum(),
               foreignLessThanThreeTransfer: groupData.map(value => parseInt(value[6], 10)).filter(value => Number.isInteger(value)).sum(),
